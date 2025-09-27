@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-LavishlyYours: "LavishlyYours", sans-serif;
+  --font-ImperialScript: "ImperialScript", sans-serif;
+}
+
+@font-face {
+  font-family: LavishlyYours;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Lavishly_Yours/LavishlyYours-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ImperialScript;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Imperial_Script/ImperialScript-Regular.ttf") format("truetype");
+}
