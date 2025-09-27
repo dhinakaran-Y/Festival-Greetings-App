@@ -1,17 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>festival-greetings-app</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-  </head>
-  <body>
-    <div class="flex-col w-full">
-    <h1 class="text-red-600 text-4xl font-bold flex w-full justify-center font-serif">Hii , Hello</h1>
-    <h1 class="text-red-600 text-4xl font-bold flex w-ful justify-center font-LavishlyYours">Hii , Hello</h1>
-    <h1 class="text-red-600 text-8xl font-extrabold flex w-ful justify-center font-ImperialScript">Hii , Hello</h1>
-    </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Wish your friends and family with this New Year card with your names on it !!" />
+  <meta name="keywords" content="New Year,2024,Happy New Year,Party " />
+  <meta name="author" content="Dhinakaran" />
+  <meta property="og:title" content=" New Year Greeting App" />
+  <meta name="og:description" content="Wish everyone a Happy New Year with names on it. Give it a try !!" />
+  <meta property="og:image" content="/festival-greeting-app/images/festival-greeting-app.jpg" />
+  <title>Festival Greeting App</title>
+
+  <!-- TailwindCSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body class="bg-gray-900">
+  <div class="flex justify-center items-center max-w-2xl mx-auto w-fit h-screen bg">
+    <form id="greeterForm" action="" class="bg-white p-10 rounded w-96">
+      <input type="text" placeholder="Enter your name" class="bg-gray-100 px-3 py-2 block w-full rounded outline-none"
+        autofocus required />
+      <button class="px-4 py-2 rounded bg-blue-500 hover:bg-blue-600 text-white mt-3 w-full">
+        Create your greeting
+      </button>
+    </form>
+  </div>
+
+  <script type="module" src="./assets/js/main.js"></script>
+</body>
+
 </html>
