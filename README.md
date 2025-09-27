@@ -3,7 +3,7 @@
 Festival Greeting app with name.
 
 
-> Live: [https://dhinakaran-Y/Festival-Greeting-App/](https://dhinakaran-Y/Festival-Greeting-App/)
+> Live: [https://dhinakaran-y.github.io/Festival-Greetings-App/](https://dhinakaran-y.github.io/Festival-Greetings-App/)
 
 #### LICENSE: MIT
 
